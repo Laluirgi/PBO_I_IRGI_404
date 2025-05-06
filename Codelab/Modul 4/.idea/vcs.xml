@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+<<<<<<< HEAD:Codelab/Modul 4/.idea/vcs.xml
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+=======
+    <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
+>>>>>>> a320d0498c5be2384edd12b7f9486554091d77fc:Tugas/TUGAS_PBO/TUGAS_MODUL_3/.idea/vcs.xml
   </component>
 </project>
