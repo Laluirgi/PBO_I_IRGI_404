@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2ca3cb; -fx-border-color: #EEEEEE; -fx-border-width: 8;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="evoting.project_evoting.Kontrol.KontrolData">
+   <children>
+      <Label fx:id="labelHalo" layoutX="189.0" text="Halo" wrapText="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="28.0" layoutY="344.0" mnemonicParsing="false" onAction="#tombolLogout" prefHeight="34.0" prefWidth="67.0" style="-fx-background-color: #f52d08;" text="Logout" />
+      <Button layoutX="484.0" layoutY="344.0" mnemonicParsing="false" onAction="#tombolHasil" prefHeight="34.0" prefWidth="67.0" style="-fx-background-color: #05ff09;" text="Hasil" />
+      <TableView fx:id="tabelMahasiswa" layoutX="20.0" layoutY="85.0" prefHeight="200.0" prefWidth="556.0">
+        <columns>
+          <TableColumn id="colNama" fx:id="colNama" prefWidth="249.5999755859375" text="Nama" />
+          <TableColumn id="colNIM" fx:id="colNIM" prefWidth="216.00006103515625" text="NIM" />
+            <TableColumn id="colStatus" fx:id="colStatus" minWidth="0.0" prefWidth="91.99993896484375" text="Status" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
